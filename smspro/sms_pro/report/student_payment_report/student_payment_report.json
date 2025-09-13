@@ -1,0 +1,64 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2024-09-13 07:00:00.000000",
+ "default_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [
+  {
+   "default": "Today",
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date"
+  },
+  {
+   "default": "Today",
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  },
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "label": "Student",
+   "options": "Student"
+  },
+  {
+   "fieldname": "course",
+   "fieldtype": "Link",
+   "label": "Course",
+   "options": "Course"
+  },
+  {
+   "fieldname": "batch",
+   "fieldtype": "Link",
+   "label": "Batch",
+   "options": "Batch"
+  },
+  {
+   "fieldname": "payment_status",
+   "fieldtype": "Select",
+   "label": "Payment Status",
+   "options": "Paid\nPartially Paid\nUnpaid"
+  },
+  {
+   "default": 0,
+   "fieldname": "outstanding_only",
+   "fieldtype": "Check",
+   "label": "Outstanding Only"
+  }
+ ],
+ "idx": 0,
+ "is_standard": "No",
+ "json": "",
+ "modified": "2024-09-13 07:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "SMS Pro",
+ "name": "Student Payment Report",
+ "owner": "Administrator",
+ "report_name": "Student Payment Report",
+ "report_type": "Query Report",
+ "ref_doctype": "Student Enrollment"
+}

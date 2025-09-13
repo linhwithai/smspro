@@ -237,3 +237,22 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# Reports
+# ------------------
+scheduled_events = {
+	"daily": [
+		"smspro.api.payment.send_payment_reminders"
+	]
+}
+
+# Include API files
+include_js = [
+	"smspro/public/js/dashboard.js"
+]
+
+# Reports
+reports = [
+	"SMS Pro:Student Payment Report",
+	"SMS Pro:Attendance Report"
+]
+
